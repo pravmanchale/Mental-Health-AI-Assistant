@@ -75,7 +75,7 @@ if st.button("Open Camera", key="Camera", disabled=CameraButton):
     # Check if an image has been taken
     if img_file_buffer is not None:
         vision_model = genai.GenerativeModel(
-            model_name="gemini-pro-vision",
+            model_name="gemini-1.5-flash",
             generation_config=generation_config,
             safety_settings=safety_settings,
         )
