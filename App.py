@@ -104,7 +104,7 @@ if img_file_buffer is not None:
 
     # Set up image parts for the model
     image_parts = [
-        {"mime_type": "image/jpeg", "data": encoded_img},
+         {"mime_type": "image/jpeg", "data": encoded_img},
     ]
 
     # Prompt for the model
