@@ -12,7 +12,7 @@ load_dotenv()
 
 st.set_page_config(page_title="Mental Support Chatbot")
 
-api_key = os.getenv("GENAI_API_KEY")
+api_key = "AIzaSyATq6lsVrXivHC24k2j-00Ke819ts-0WUY"
 
 if not api_key:
     api_key = st.secrets["GENAI_API_KEY"]
